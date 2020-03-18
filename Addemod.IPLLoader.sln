@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE1FCCF0-6611-4B4D-B811-146AAC010DB7}"
+	ProjectSection(SolutionItems) = preProject
+		nfive.yml = nfive.yml
+	EndProjectSection
+EndProject
+Project("{C0B8DA4B-6444-487F-923F-9E83C85DB82C}") = "IPLLoader.Client", "IPLLoader.Client\IPLLoader.Client.csproj", "{31BC176E-6DEF-4728-9D65-A54112DE0CB0}"
+EndProject
+Project("{C0B8DA4B-6444-487F-923F-9E83C85DB82C}") = "IPLLoader.Server", "IPLLoader.Server\IPLLoader.Server.csproj", "{EF8CC2B6-ACD8-44ED-BE69-2D39B6E952D4}"
+EndProject
+Project("{C0B8DA4B-6444-487F-923F-9E83C85DB82C}") = "IPLLoader.Shared", "IPLLoader.Shared\IPLLoader.Shared.csproj", "{2065BD3E-DEF1-4F5D-8D35-998289E93C28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31BC176E-6DEF-4728-9D65-A54112DE0CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BC176E-6DEF-4728-9D65-A54112DE0CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BC176E-6DEF-4728-9D65-A54112DE0CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BC176E-6DEF-4728-9D65-A54112DE0CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8CC2B6-ACD8-44ED-BE69-2D39B6E952D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8CC2B6-ACD8-44ED-BE69-2D39B6E952D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8CC2B6-ACD8-44ED-BE69-2D39B6E952D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8CC2B6-ACD8-44ED-BE69-2D39B6E952D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2065BD3E-DEF1-4F5D-8D35-998289E93C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2065BD3E-DEF1-4F5D-8D35-998289E93C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2065BD3E-DEF1-4F5D-8D35-998289E93C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2065BD3E-DEF1-4F5D-8D35-998289E93C28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

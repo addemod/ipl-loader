@@ -1,0 +1,19 @@
+plugins:
+- name: NFive/plugin-chat
+  version: 0.3.1
+  description: Basic player chat system
+  author: NFive
+  license: LGPL-3.0-or-later
+  website: https://nfive.io/
+  server:
+    main:
+    - NFive.Chat.Server
+    include:
+    - NFive.Chat.Shared
+  client:
+    main:
+    - NFive.Chat.Client
+    include:
+    - NFive.Chat.Shared
+    files:
+    - Overlays/ChatOverlay.html
