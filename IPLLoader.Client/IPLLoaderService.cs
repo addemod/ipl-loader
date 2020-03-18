@@ -43,10 +43,6 @@ namespace Addemod.IPLLoader.Client {
 			}
 		}
 
-		private void LoadIPLTick() {
-			this.Ticks.Off(LoadIPLTick); // Turn off after first tick!
-		}
-
 		private void LoadInterior(List<NFive.SDK.Core.Models.Vector3> locations, List<InteriorProp> interiorProps) {
 			foreach (var location in locations) {
 				// Try to get the interior from the location specified
